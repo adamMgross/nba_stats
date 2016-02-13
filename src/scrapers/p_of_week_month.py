@@ -61,6 +61,8 @@ def get_stats_month():
             count[player] += 1
         else:
             count[player] = 1
+    for player in players:
+        print player
 
     sorted_players = sorted(count, key=count.get)
     return count
