@@ -1,6 +1,10 @@
 import json
 import yaml
 
+def load(filename):
+    with open(filename) as data_file:
+        return yaml.safe_load(data_file)
+"""
 def load_pom():
     with open('players_of_the_month.txt') as data_file:
         return yaml.safe_load(data_file)
@@ -11,13 +15,21 @@ def load_pow():
 
 def load_all_nba_stats():
     with open('all_nba_stats.txt') as data_file:
-        return yaml.safe_load(data_file)
+      return yaml.safe_load(data_file)
 
-def abbreviate_name(full_name):
-    first = full_name[0] + '. '
-    last = full_name[full_name.index(' ')+1:]
-    return first + last
+def gather_week_month_info(pom_stats, pow_stats):
+    data = {}
     
+    for player in pom_stats:
+        data[abbreviate_name(player)] = {"Player of the Month Awards": pom_stats[player]}
+    for player in pow_stats:
+        if player in pow_stats:
+            data[player]["Player of the Week Awards"] = pow_stats[player]
+        else:
+            data[player] = {"Player of the Week Awards": pow_stats[player]}  
+        
+    return data
+
 def gather_all_nba_info(all_nba):
     data = {}
     for team in all_nba:
@@ -32,16 +44,11 @@ def gather_all_nba_info(all_nba):
                 else:
                     data[player][team_num] += 1
     return data
+"""
 
-def gather_week_month_info(pom_stats, pow_stats):
-    data = {}
+def abbreviate_name(full_name):
+    first = full_name[0] + '. '
+    last = full_name[full_name.index(' ')+1:]
+    return first + last
     
-    for player in pom_stats:
-        data[abbreviate_name(player)] = {"Player of the Month Awards": pom_stats[player]}
-    for player in pow_stats:
-        if player in pow_stats:
-            data[player]["Player of the Week Awards"] = pow_stats[player]
-        else:
-            data[player] = {"Player of the Week Awards": pow_stats[player]}  
-        
-    return data
+
