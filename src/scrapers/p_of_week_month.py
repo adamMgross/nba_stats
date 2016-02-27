@@ -64,3 +64,16 @@ def get_stats_month():
 
     sorted_players = sorted(count, key=count.get)
     return count
+
+def organize_week_month_info(pom_stats, pow_stats):
+    data = {}
+    
+    for player in pom_stats:
+        data[abbreviate_name(player)] = {"Player of the Month Awards": pom_stats[player]}
+    for player in pow_stats:
+        if player in pow_stats:
+            data[player]["Player of the Week Awards"] = pow_stats[player]
+        else:
+            data[player] = {"Player of the Week Awards": pow_stats[player]}  
+        
+    return data

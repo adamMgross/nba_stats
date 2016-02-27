@@ -41,3 +41,20 @@ def get_stats(url):
         final_dict [identifier] = players
 
     return final_dict
+
+def organize_all_league_info(all_league):
+    data = {}
+    for team in all_league:
+        team_num = str(team[2][0])
+        for i in range(3,8):
+            player = team[i]
+            if player not in data:
+                data[player] = {team_num : 1}
+            else:
+                if team_num not in data[player]:
+                    data[player][team_num] = 1
+                else:
+                    data[player][team_num] += 1
+    return data
+
+
