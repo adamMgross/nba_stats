@@ -42,12 +42,15 @@ for i in range(num_of_players):
     else:
         stats[i] = stats[i][stats[i].index('right">')+7:stats[i].index('</td')]
 
-print stats
-print mvp_player
-print player
+
+mvp_stats = {}
+counter = 0
+for player in mvp_player:
+    mvp_stats[player] = stats[counter]
+    counter += 1
 
 with open('stats/mvp_names.json', 'w') as outfile:
-    json.dump(mvp_player, outfile)
+    json.dump(mvp_stats, outfile)
 
 
 
