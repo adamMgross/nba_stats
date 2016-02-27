@@ -21,8 +21,8 @@ def get_stats_week():
     x = soup.findAll('a')
 
     string_x = []
-    for bananas in x:
-        string_x.append(str(bananas))
+    for thing in x:
+        string_x.append(str(thing))
 
     players = []
     for thing in string_x:
