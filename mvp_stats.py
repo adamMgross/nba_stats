@@ -56,4 +56,3 @@ with open('stats/mvp_names.json', 'w') as outfile:
 
 
 # <div class="table_container" id="div_mvp"> 83 lines
->>>>>>> 4e83a26d835a9162093f33fdcc0e991518055e8f
