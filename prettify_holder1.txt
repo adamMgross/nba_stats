@@ -1,0 +1,406 @@
+[
+<td align="right">
+ 1
+</td>
+,
+<td align="left" csk="Chamberlain,Wilt">
+ <a href="/players/c/chambwi01.html">
+  Wilt Chamberlain
+ </a>
+</td>
+,
+<td align="right">
+ 31
+</td>
+,
+<td align="left">
+ <a href="/teams/PHI/1968.html">
+  PHI
+ </a>
+</td>
+,
+<td align="right">
+ 88.0
+</td>
+,
+<td align="right">
+ 504.0
+</td>
+,
+<td align="right">
+ 675
+</td>
+,
+<td align="right">
+ 0.747
+</td>
+,
+<td align="right">
+ 82
+</td>
+,
+<td align="right">
+ 46.8
+</td>
+,
+<td align="right">
+ 24.3
+</td>
+,
+<td align="right">
+ 23.8
+</td>
+,
+<td align="right">
+ 8.6
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .595
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .380
+</td>
+,
+<td align="right">
+ 20.4
+</td>
+,
+<td align="right">
+ .255
+</td>
+,
+<td align="right">
+ 2
+</td>
+,
+<td align="left" csk="Wilkens,Lenny">
+ <a href="/players/w/wilkele01.html">
+  Lenny Wilkens
+ </a>
+</td>
+,
+<td align="right">
+ 30
+</td>
+,
+<td align="left">
+ <a href="/teams/STL/1968.html">
+  STL
+ </a>
+</td>
+,
+<td align="right">
+ 26.0
+</td>
+,
+<td align="right">
+ 216.0
+</td>
+,
+<td align="right">
+ 675
+</td>
+,
+<td align="right">
+ 0.320
+</td>
+,
+<td align="right">
+ 82
+</td>
+,
+<td align="right">
+ 38.6
+</td>
+,
+<td align="right">
+ 20.0
+</td>
+,
+<td align="right">
+ 5.3
+</td>
+,
+<td align="right">
+ 8.3
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .438
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .768
+</td>
+,
+<td align="right">
+ 10.1
+</td>
+,
+<td align="right">
+ .153
+</td>
+,
+<td align="right">
+ 3
+</td>
+,
+<td align="left" csk="Baylor,Elgin">
+ <a href="/players/b/bayloel01.html">
+  Elgin Baylor
+ </a>
+</td>
+,
+<td align="right">
+ 33
+</td>
+,
+<td align="left">
+ <a href="/teams/LAL/1968.html">
+  LAL
+ </a>
+</td>
+,
+<td align="right">
+ 9.0
+</td>
+,
+<td align="right">
+ 129.0
+</td>
+,
+<td align="right">
+ 675
+</td>
+,
+<td align="right">
+ 0.191
+</td>
+,
+<td align="right">
+ 77
+</td>
+,
+<td align="right">
+ 39.3
+</td>
+,
+<td align="right">
+ 26.0
+</td>
+,
+<td align="right">
+ 12.2
+</td>
+,
+<td align="right">
+ 4.6
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .443
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .786
+</td>
+,
+<td align="right">
+ 8.0
+</td>
+,
+<td align="right">
+ .127
+</td>
+,
+<td align="right">
+ 4
+</td>
+,
+<td align="left" csk="Bing,Dave">
+ <a href="/players/b/bingda01.html">
+  Dave Bing
+ </a>
+</td>
+,
+<td align="right">
+ 24
+</td>
+,
+<td align="left">
+ <a href="/teams/DET/1968.html">
+  DET
+ </a>
+</td>
+,
+<td align="right">
+ 9.0
+</td>
+,
+<td align="right">
+ 127.0
+</td>
+,
+<td align="right">
+ 675
+</td>
+,
+<td align="right">
+ 0.188
+</td>
+,
+<td align="right">
+ 79
+</td>
+,
+<td align="right">
+ 40.6
+</td>
+,
+<td align="right">
+ 27.1
+</td>
+,
+<td align="right">
+ 4.7
+</td>
+,
+<td align="right">
+ 6.4
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .441
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .707
+</td>
+,
+<td align="right">
+ 6.2
+</td>
+,
+<td align="right">
+ .093
+</td>
+,
+<td align="right">
+ 5
+</td>
+,
+<td align="left" csk="Robertson,Oscar">
+ <a href="/players/r/roberos01.html">
+  Oscar Robertson
+ </a>
+</td>
+,
+<td align="right">
+ 29
+</td>
+,
+<td align="left">
+ <a href="/teams/CIN/1968.html">
+  CIN
+ </a>
+</td>
+,
+<td align="right">
+ 3.0
+</td>
+,
+<td align="right">
+ 93.0
+</td>
+,
+<td align="right">
+ 675
+</td>
+,
+<td align="right">
+ 0.138
+</td>
+,
+<td align="right">
+ 65
+</td>
+,
+<td align="right">
+ 42.5
+</td>
+,
+<td align="right">
+ 29.2
+</td>
+,
+<td align="right">
+ 6.0
+</td>
+,
+<td align="right">
+ 9.7
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .500
+</td>
+,
+<td align="right">
+</td>
+,
+<td align="right">
+ .873
+</td>
+,
+<td align="right">
+ 12.3
+</td>
+,
+<td align="right">
+ .214
+</td>
+]
