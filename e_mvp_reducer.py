@@ -30,15 +30,9 @@ def main():
     x = []
     for player in player_emvp_scores:
         x.append((player_emvp_scores[player], str(player)))
-
-    y = sorted(x)
-
-    for i in range(0,15):
-            print str(i + 1) + ": " + y[len(y) -i -1][1] + " " + str(y[len(y) -i -1][0])
-
-
-for i in range(0,7):
-    COEFF += 0.5
-    print "COEFFICIENT: " + str(COEFF) + "------------------------"
-    main()
-    print "-------------------------------"
+    
+    res = {}
+    for entry in x:
+        res[entry[1]] = entry[0]
+    with open(os.getcwd() + '/top_emvps.json') as outfile:
+        json.dump(res, outfile)
